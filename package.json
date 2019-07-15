@@ -1,0 +1,28 @@
+{
+  "name": "spark-translate",
+  "version": "1.0.0",
+  "description": "Google Translate + Spark AR integration.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "npx pm2 start server.js --watch",
+    "logs": "npx pm2 logs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/positlabs/spark-translate.git"
+  },
+  "author": "positlabs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/positlabs/spark-translate/issues"
+  },
+  "homepage": "https://github.com/positlabs/spark-translate#readme",
+  "dependencies": {
+    "@google-cloud/translate": "^4.1.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "pm2": "^3.5.1"
+  }
+}
