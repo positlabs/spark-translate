@@ -20,7 +20,7 @@
   "homepage": "https://github.com/positlabs/spark-translate#readme",
   "dependencies": {
     "@google-cloud/translate": "^4.1.1",
-    "express": "^4.17.1"
+    "express": "^4.18.2"
   },
   "devDependencies": {
     "pm2": "^3.5.1"
